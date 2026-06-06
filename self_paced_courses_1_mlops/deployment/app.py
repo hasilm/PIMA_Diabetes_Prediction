@@ -41,4 +41,4 @@ if st.button("Predict Diabetics"):
     prediction = model.predict(input_data)[0]
     result = "Diabetic" if prediction == 1 else "Non-Diabetic"
     st.subheader("Prediction Result:")
-    st.success(f"The model predict: **{result}**")
+    st.success(f"The AII model predict: **{result}**")
